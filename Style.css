@@ -1,0 +1,48 @@
+#MainLogo {
+    border-style: solid;
+    width: 200px;
+    float: right;
+    border-width: 0;
+}
+#MainTitle {
+    font-size: 100px;
+    float: left;
+}
+.emphasis_hr {
+    border-width: 10px;
+    border-color: black;
+    clear: both;
+}
+button {
+    width: 450px;
+}
+hr {
+    border-width: 10px;
+    border-color: gray;
+    clear: both;
+}
+
+.left_image-recipes {
+    float: left;
+    width: 525px;
+    border: solid;
+    border-color: yellow;
+    border-radius: 25px;
+    border-width: 5px;
+}
+.ingredients {
+    border: solid;
+    border-color: red;
+    border-radius: 25px;
+    border-width: 5px;
+    float: right;
+    font-size: 20px;
+}
+.directions{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    background: linear-gradient(#ffffff, #00ffdd);
+    height: 98.29vh;
+}
